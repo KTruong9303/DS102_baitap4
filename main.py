@@ -3,7 +3,7 @@ from PIL import Image
 import pickle as pkl
 import numpy as np
 
-class_list = {'0' : 'Male', '1' : 'Female'}
+class_list = {'0' : 'Female', '1' : 'Male'}
 
 input_ec = open('ec_vinames.pkl', 'rb')
 encoder = pkl.load(input_ec)
